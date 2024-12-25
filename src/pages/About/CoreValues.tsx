@@ -1,4 +1,4 @@
-import React from "react";
+
 import Goal from "../../assets/Values/Goal.png"
 import Integrity from "../../assets/Values/integrity.png"
 import Quality from "../../assets/Values/Quality.png"

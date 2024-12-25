@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaPlayCircle } from "react-icons/fa"; // For video play icon
 import HTML from "../../assets/Testimonials/htmll.jpeg";
 import Photo from "../../assets/Testimonials/Photography.jpeg";
@@ -6,29 +5,29 @@ import Marketing from "../../assets/Testimonials/Marketing.jpeg";
 
 const VideosTutorials = () => {
   const videos = [
-    { 
-      id: 1, 
-      title: "HTML Tutorials", 
-      image: HTML, 
-      author: "John Doe", 
-      views: "1.2M views", 
-      uploaded: "10 hours ago" 
+    {
+      id: 1,
+      title: "HTML Tutorials",
+      image: HTML,
+      author: "John Doe",
+      views: "1.2M views",
+      uploaded: "10 hours ago",
     },
-    { 
-      id: 2, 
-      title: "Photography", 
-      image: Photo, 
-      author: "Jane Smith", 
-      views: "980K views", 
-      uploaded: "2 days ago" 
+    {
+      id: 2,
+      title: "Photography",
+      image: Photo,
+      author: "Jane Smith",
+      views: "980K views",
+      uploaded: "2 days ago",
     },
-    { 
-      id: 3, 
-      title: "Marketing", 
-      image: Marketing, 
-      author: "Alex Johnson", 
-      views: "500K views", 
-      uploaded: "1 week ago" 
+    {
+      id: 3,
+      title: "Marketing",
+      image: Marketing,
+      author: "Alex Johnson",
+      views: "500K views",
+      uploaded: "1 week ago",
     },
   ];
 
@@ -52,9 +51,7 @@ const VideosTutorials = () => {
                   alt={video.title}
                   className="w-full h-40 object-cover"
                 />
-                <FaPlayCircle 
-                  className="absolute text-white text-4xl top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black bg-opacity-50 rounded-full" 
-                />
+                <FaPlayCircle className="absolute text-white text-4xl top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black bg-opacity-50 rounded-full" />
               </div>
               <div className="p-4 text-center">
                 <h4 className="text-lg font-bold mt-2">{video.title}</h4>

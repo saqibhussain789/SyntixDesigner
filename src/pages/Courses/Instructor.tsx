@@ -1,4 +1,3 @@
-import React from "react";
 import { FaTwitter, FaLinkedin } from "react-icons/fa";
 
 const TopInstructor = () => {
@@ -54,9 +53,13 @@ const TopInstructor = () => {
             key={instructor.id}
             className="bg-white border rounded-lg shadow-sm hover:shadow-lg transition p-4 text-center"
           >
-            <h4 className="text-xl font-semibold text-gray-800">{instructor.name}</h4>
+            <h4 className="text-xl font-semibold text-gray-800">
+              {instructor.name}
+            </h4>
             <p className="mt-2 text-sm text-gray-600">{instructor.role}</p>
-            <p className="mt-1 text-sm text-gray-500">{instructor.institution}</p>
+            <p className="mt-1 text-sm text-gray-500">
+              {instructor.institution}
+            </p>
             <div className="flex justify-center gap-4 mt-4">
               <a
                 href={instructor.social.twitter}

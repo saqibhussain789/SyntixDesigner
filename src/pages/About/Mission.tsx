@@ -1,4 +1,4 @@
-import React from "react";
+
 import Quality from "../../assets/Missions/Quality.png"
 import Integrity from "../../assets/Missions/integrity.png"
 import Experince from "../../assets/Missions/Exp.png"

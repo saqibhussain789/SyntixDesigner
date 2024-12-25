@@ -1,27 +1,29 @@
-import React from 'react';
 import Structure from "../../assets/Testimonials/Structure.png";
 import Practical from "../../assets/Testimonials/Practical.png";
 import Career from "../../assets/Testimonials/career.png";
 
 const BenefitsTutorials = () => {
   const benefits = [
-    { 
-      id: 1, 
-      title: "Structured Learning", 
+    {
+      id: 1,
+      title: "Structured Learning",
       icon: Structure,
-      description: "Engage in a well-organized curriculum that guides you through each concept step by step." 
+      description:
+        "Engage in a well-organized curriculum that guides you through each concept step by step.",
     },
-    { 
-      id: 2, 
-      title: "Practical Skills", 
+    {
+      id: 2,
+      title: "Practical Skills",
       icon: Practical,
-      description: "Acquire hands-on experience with real-world projects to solidify your understanding." 
+      description:
+        "Acquire hands-on experience with real-world projects to solidify your understanding.",
     },
-    { 
-      id: 3, 
-      title: "Career Growth", 
+    {
+      id: 3,
+      title: "Career Growth",
       icon: Career,
-      description: "Enhance your professional prospects by mastering new skills and technologies." 
+      description:
+        "Enhance your professional prospects by mastering new skills and technologies.",
     },
   ];
 
@@ -31,8 +33,9 @@ const BenefitsTutorials = () => {
         <h2 className="text-4xl font-bold text-yellow-500">BENEFITS OF</h2>
         <h3 className="text-5xl font-extrabold text-gray-800">TUTORIALS</h3>
         <p className="text-gray-500 mt-4 text-center">
-          Our tutorials are designed to provide you with structured knowledge, hands-on experience, and career-boosting opportunities. 
-          Join thousands of learners and unlock your potential.
+          Our tutorials are designed to provide you with structured knowledge,
+          hands-on experience, and career-boosting opportunities. Join thousands
+          of learners and unlock your potential.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
           {benefits.map((benefit) => (

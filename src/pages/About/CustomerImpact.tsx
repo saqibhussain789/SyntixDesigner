@@ -1,4 +1,4 @@
-import React from "react";
+
 import Stat from "../../assets/Customers/stats.png"
 import Trust from "../../assets/Customers/trust.png"
 import Growth from "../../assets/Customers/growth.png"

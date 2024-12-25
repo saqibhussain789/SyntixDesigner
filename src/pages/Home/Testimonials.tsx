@@ -1,4 +1,3 @@
-import React from "react";
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 import UserProfile from "../../assets/Testimonials/girl2profile.jpeg";
 import UserProfile2 from "../../assets/Testimonials/girlprofile.jpeg";
@@ -25,16 +24,17 @@ const Testimonials = () => {
     <div className="py-16 bg-gray-100">
       <div className="max-w-7xl px-4 mx-auto text-left">
         <h2 className="text-4xl font-bold text-yellow-500">TESTIMONIAL</h2>
-        <h3 className="text-5xl font-extrabold text-gray-800">What Our Customers Say</h3>
+        <h3 className="text-5xl font-extrabold text-gray-800">
+          What Our Customers Say
+        </h3>
         <p className="mt-4 text-gray-500 text-lg">
           Phasellus non dolor nibh. Nullam elementum tellus pretium feugiat.
           <br />
           Cras dictum tellus dui, vitae sollicitudin ipsum tincidunt in. Sed
           tincidunt tristique enim sed sollicitudin.
         </p>
-        </div>
-        <div className="max-w-7xl px-4 mx-auto text-center">
-
+      </div>
+      <div className="max-w-7xl px-4 mx-auto text-center">
         <div className="grid gap-8 mt-10 md:grid-cols-2">
           {testimonials.map((testimonial, index) => (
             <div
@@ -58,10 +58,7 @@ const Testimonials = () => {
 
                 <div className="flex mt-4 space-x-1">
                   {[...Array(5)].map((_, starIndex) => (
-                    <span
-                      key={starIndex}
-                      className="text-xl text-yellow-500"
-                    >
+                    <span key={starIndex} className="text-xl text-yellow-500">
                       ★
                     </span>
                   ))}

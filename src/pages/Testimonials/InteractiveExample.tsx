@@ -1,27 +1,29 @@
-import React from 'react';
 import Branding from "../../assets/Testimonials/Brand.png";
 import Design from "../../assets/Testimonials/design.png";
 import Support from "../../assets/Testimonials/support.png";
 
 const InteractiveExample = () => {
   const examples = [
-    { 
-      id: 1, 
-      icon: Branding, 
-      title: "Branding Identity", 
-      content: "Create a strong and unique brand identity that resonates with your audience." 
+    {
+      id: 1,
+      icon: Branding,
+      title: "Branding Identity",
+      content:
+        "Create a strong and unique brand identity that resonates with your audience.",
     },
-    { 
-      id: 2, 
-      icon: Design, 
-      title: "Unique Design", 
-      content: "Craft visually stunning designs that captivate and inspire creativity." 
+    {
+      id: 2,
+      icon: Design,
+      title: "Unique Design",
+      content:
+        "Craft visually stunning designs that captivate and inspire creativity.",
     },
-    { 
-      id: 3, 
-      icon: Support, 
-      title: "Support", 
-      content: "Provide exceptional support to ensure satisfaction and success." 
+    {
+      id: 3,
+      icon: Support,
+      title: "Support",
+      content:
+        "Provide exceptional support to ensure satisfaction and success.",
     },
   ];
 
@@ -39,10 +41,10 @@ const InteractiveExample = () => {
               key={example.id}
               className="shadow-md rounded-lg border text-center p-4 flex flex-col items-center"
             >
-              <img 
-                src={example.icon} 
-                alt={example.title} 
-                className="w-16 h-16 mb-4 object-contain" 
+              <img
+                src={example.icon}
+                alt={example.title}
+                className="w-16 h-16 mb-4 object-contain"
               />
               <h4 className="text-lg font-bold mt-2">{example.title}</h4>
               <p className="text-gray-500 text-sm mt-2">{example.content}</p>

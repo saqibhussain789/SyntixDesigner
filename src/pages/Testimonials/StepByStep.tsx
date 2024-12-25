@@ -1,15 +1,34 @@
-import React from 'react';
-import UI from "../../assets/Testimonials/uiux.png"
-import Master from "../../assets/Testimonials/master.png"
-import UserReserach from "../../assets/Testimonials/userreserach.png"
-import WorkResearch from "../../assets/Testimonials/work.png"
+import UI from "../../assets/Testimonials/uiux.png";
+import Master from "../../assets/Testimonials/master.png";
+import UserReserach from "../../assets/Testimonials/userreserach.png";
+import WorkResearch from "../../assets/Testimonials/work.png";
 
 const StepByStep = () => {
   const steps = [
-    { id: 1, icon: UI, title: "Learn UX/UI Basics", content: "Get familiar with the basics of design and user experience." },
-    { id: 2, icon: Master, title: "Master Design Tools", content: "Learn how to use popular design tools effectively." },
-    { id: 3, icon: UserReserach, title: "User Research", content: "Conduct research to understand the users' needs." },
-    { id: 4, icon: WorkResearch, title: "Work on Projects", content: "Apply your skills to real-world design projects." },
+    {
+      id: 1,
+      icon: UI,
+      title: "Learn UX/UI Basics",
+      content: "Get familiar with the basics of design and user experience.",
+    },
+    {
+      id: 2,
+      icon: Master,
+      title: "Master Design Tools",
+      content: "Learn how to use popular design tools effectively.",
+    },
+    {
+      id: 3,
+      icon: UserReserach,
+      title: "User Research",
+      content: "Conduct research to understand the users' needs.",
+    },
+    {
+      id: 4,
+      icon: WorkResearch,
+      title: "Work on Projects",
+      content: "Apply your skills to real-world design projects.",
+    },
   ];
 
   return (
@@ -36,9 +55,7 @@ const StepByStep = () => {
             </div>
           ))}
         </div>
-        <p className="text-gray-600 mt-6 text-center">
-          1 interactive example
-        </p>
+        <p className="text-gray-600 mt-6 text-center">1 interactive example</p>
       </div>
     </section>
   );

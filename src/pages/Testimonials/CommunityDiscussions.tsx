@@ -1,4 +1,3 @@
-import React from 'react';
 import P1 from "../../assets/Testimonials/Alex.png";
 import P2 from "../../assets/Testimonials/Lisa.png";
 import P3 from "../../assets/Testimonials/Taylor.png";
@@ -6,29 +5,33 @@ import P4 from "../../assets/Testimonials/Roni.jpeg";
 
 const CommunityDiscussions = () => {
   const members = [
-    { 
-      id: 1, 
-      name: "Alex Taylor", 
-      image: P1, 
-      content: "Alex is an enthusiastic contributor focused on user experience and design discussions." 
+    {
+      id: 1,
+      name: "Alex Taylor",
+      image: P1,
+      content:
+        "Alex is an enthusiastic contributor focused on user experience and design discussions.",
     },
-    { 
-      id: 2, 
-      name: "Lisa Patel", 
-      image: P2, 
-      content: "Lisa brings a wealth of knowledge in AI and machine learning topics to the community." 
+    {
+      id: 2,
+      name: "Lisa Patel",
+      image: P2,
+      content:
+        "Lisa brings a wealth of knowledge in AI and machine learning topics to the community.",
     },
-    { 
-      id: 3, 
-      name: "Rachel Taylor", 
-      image: P3, 
-      content: "Rachel actively engages in coding challenges and fosters collaboration among members." 
+    {
+      id: 3,
+      name: "Rachel Taylor",
+      image: P3,
+      content:
+        "Rachel actively engages in coding challenges and fosters collaboration among members.",
     },
-    { 
-      id: 4, 
-      name: "Ravi Roberts", 
-      image: P4, 
-      content: "Ravi contributes insightful articles and supports members in technical discussions." 
+    {
+      id: 4,
+      name: "Ravi Roberts",
+      image: P4,
+      content:
+        "Ravi contributes insightful articles and supports members in technical discussions.",
     },
   ];
 

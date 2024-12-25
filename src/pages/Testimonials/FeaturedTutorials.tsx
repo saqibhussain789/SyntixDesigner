@@ -1,27 +1,29 @@
-import React from 'react';
 import HTML from "../../assets/Testimonials/htmll.jpeg";
 import Photo from "../../assets/Testimonials/Photography.jpeg";
 import Marketing from "../../assets/Testimonials/Marketing.jpeg";
 
 const FeaturedTutorials = () => {
   const tutorials = [
-    { 
-      id: 1, 
-      title: "HTML Tutorials", 
-      image: HTML, 
-      description: "Learn the fundamentals of HTML with structured examples and exercises." 
+    {
+      id: 1,
+      title: "HTML Tutorials",
+      image: HTML,
+      description:
+        "Learn the fundamentals of HTML with structured examples and exercises.",
     },
-    { 
-      id: 2, 
-      title: "Photography", 
-      image: Photo, 
-      description: "Master the art of photography with practical tips and expert guidance." 
+    {
+      id: 2,
+      title: "Photography",
+      image: Photo,
+      description:
+        "Master the art of photography with practical tips and expert guidance.",
     },
-    { 
-      id: 3, 
-      title: "Marketing", 
-      image: Marketing, 
-      description: "Explore marketing strategies to effectively promote and grow your business." 
+    {
+      id: 3,
+      title: "Marketing",
+      image: Marketing,
+      description:
+        "Explore marketing strategies to effectively promote and grow your business.",
     },
   ];
 
@@ -46,7 +48,9 @@ const FeaturedTutorials = () => {
               />
               <div className="p-4 text-center">
                 <h4 className="text-lg font-bold">{tutorial.title}</h4>
-                <p className="text-sm text-gray-500 mt-2">{tutorial.description}</p>
+                <p className="text-sm text-gray-500 mt-2">
+                  {tutorial.description}
+                </p>
               </div>
             </div>
           ))}

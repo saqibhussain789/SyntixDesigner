@@ -1,7 +1,6 @@
-import React from "react";
 import WebImg from "../../assets/Courses/web.png";
 import RandImg from "../../assets/Courses/rndom.png";
-import PG from "../../assets/Courses/photography.jpeg"
+import PG from "../../assets/Courses/photography.jpeg";
 const Services = () => {
   const courses = [
     {

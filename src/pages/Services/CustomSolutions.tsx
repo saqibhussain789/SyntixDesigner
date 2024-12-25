@@ -1,34 +1,37 @@
-import React from "react";
-import Stat from "../../assets/Customers/stats.png"
-import Trust from "../../assets/Customers/trust.png"
-import Growth from "../../assets/Customers/growth.png"
-import Result from "../../assets/Customers/results.png"
+import Stat from "../../assets/Customers/stats.png";
+import Trust from "../../assets/Customers/trust.png";
+import Growth from "../../assets/Customers/growth.png";
+import Result from "../../assets/Customers/results.png";
 
 const CustomSolutions = () => {
   const impactCards = [
     {
       id: 1,
-      icon: Stat, 
+      icon: Stat,
       title: "Requirements",
-      description: "Phasellus non dolor nibh. Nullam elementum tellus pretium feugiat.",
+      description:
+        "Phasellus non dolor nibh. Nullam elementum tellus pretium feugiat.",
     },
     {
       id: 2,
-      icon: Trust, 
+      icon: Trust,
       title: "Design",
-      description: "Phasellus non dolor nibh. Nullam elementum tellus pretium feugiat.",
+      description:
+        "Phasellus non dolor nibh. Nullam elementum tellus pretium feugiat.",
     },
     {
       id: 3,
-      icon: Growth, 
+      icon: Growth,
       title: "Development",
-      description: "Phasellus non dolor nibh. Nullam elementum tellus pretium feugiat.",
+      description:
+        "Phasellus non dolor nibh. Nullam elementum tellus pretium feugiat.",
     },
     {
       id: 4,
-      icon: Result, 
+      icon: Result,
       title: "Test",
-      description: "Phasellus non dolor nibh. Nullam elementum tellus pretium feugiat.",
+      description:
+        "Phasellus non dolor nibh. Nullam elementum tellus pretium feugiat.",
     },
   ];
 

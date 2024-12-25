@@ -1,6 +1,5 @@
-import React from "react";
-import Course from "../../assets/Courses/rndom.png"; 
-import PG from "../../assets/Courses/photography.jpeg"
+import Course from "../../assets/Courses/rndom.png";
+import PG from "../../assets/Courses/photography.jpeg";
 
 const CoursesCategories = () => {
   const categories = [
@@ -19,7 +18,8 @@ const CoursesCategories = () => {
       title: "Product Management Basic - Course Certificate",
       students: "40 students",
       date: "1 - 14 July 2022",
-      description: "Product Management Masterclass, you’ll learn with Sarah Johnson.",
+      description:
+        "Product Management Masterclass, you’ll learn with Sarah Johnson.",
       price: "$380",
       originalPrice: "$500",
     },
@@ -29,7 +29,8 @@ const CoursesCategories = () => {
       title: "BM Data Science Professional Certificate",
       students: "11 students",
       date: "1 - 14 July 2022",
-      description: "Product Management Masterclass, you’ll learn with Sarah Johnson.",
+      description:
+        "Product Management Masterclass, you’ll learn with Sarah Johnson.",
       price: "$678",
       originalPrice: "$900",
     },
@@ -39,7 +40,8 @@ const CoursesCategories = () => {
       title: "The Science of Well-Being",
       students: "234 students",
       date: "1 - 14 July 2022",
-      description: "Product Management Masterclass, you’ll learn with Sarah Johnson.",
+      description:
+        "Product Management Masterclass, you’ll learn with Sarah Johnson.",
       price: "$123",
       originalPrice: "$500",
     },
@@ -49,7 +51,8 @@ const CoursesCategories = () => {
       title: "Python for Everybody Specialization",
       students: "342 students",
       date: "1 - 14 July 2022",
-      description: "Product Management Masterclass, you’ll learn with Sarah Johnson.",
+      description:
+        "Product Management Masterclass, you’ll learn with Sarah Johnson.",
       price: "$567",
       originalPrice: "$900",
     },
@@ -95,12 +98,16 @@ const CoursesCategories = () => {
                 <span>{course.date}</span>
                 <span>{course.students}</span>
               </div>
-              <h4 className="mt-2 text-lg font-semibold text-gray-800">{course.title}</h4>
+              <h4 className="mt-2 text-lg font-semibold text-gray-800">
+                {course.title}
+              </h4>
               <p className="mt-2 text-sm text-gray-600">{course.description}</p>
             </div>
             <div className="flex justify-between items-center p-4 border-t">
               <div>
-                <span className="text-lg font-bold text-green-600">{course.price}</span>
+                <span className="text-lg font-bold text-green-600">
+                  {course.price}
+                </span>
                 <span className="text-sm line-through text-gray-400 ml-2">
                   {course.originalPrice}
                 </span>

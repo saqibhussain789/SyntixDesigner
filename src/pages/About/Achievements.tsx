@@ -1,4 +1,4 @@
-import React from "react";
+
 import Goal from "../../assets/Achievements/Goal.png"
 import Mentoring from "../../assets/Achievements/men.png"
 import Development from "../../assets/Achievements/develop.png"

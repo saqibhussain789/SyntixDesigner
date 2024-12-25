@@ -1,5 +1,4 @@
-import React from "react";
-import P1 from "../../assets/Courses/rndom.png"
+import P1 from "../../assets/Courses/rndom.png";
 
 const SearchFilterSection = () => {
   const posts = [
@@ -62,9 +61,11 @@ const SearchFilterSection = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
           {/* Left Section (Posts) */}
-          
+
           <div className="lg:col-span-3">
-          <h3 className="text-lg font-bold text-gray-800 mb-4">Recent Posts</h3>
+            <h3 className="text-lg font-bold text-gray-800 mb-4">
+              Recent Posts
+            </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {posts.map((post) => (
                 <div

@@ -1,4 +1,3 @@
-import React from "react";
 import { FaMedal } from "react-icons/fa";
 
 const CourseRewards = () => {
@@ -19,12 +18,14 @@ const CourseRewards = () => {
           Cras dictum tellus dui, vitae sollicitudin ipsum tincidunt in. Sed
           tincidunt tristique enim sed sollicitudin.
         </p>
-        </div>
-        
-        <div className="max-w-7xl mt-5 px-4 py-8 mx-auto text-center bg-gray-900 text-black">
+      </div>
+
+      <div className="max-w-7xl mt-5 px-4 py-8 mx-auto text-center bg-gray-900 text-black">
         <div className="grid grid-cols-3 gap-8 mt-10">
           <div className="col-span-1">
-            <h4 className="text-xl font-semibold text-yellow-500">COMPETITION</h4>
+            <h4 className="text-xl font-semibold text-yellow-500">
+              COMPETITION
+            </h4>
             <p className="mt-2 text-gray-400">
               Phasellus non dolor nibh. Nullam elementum tellus pretium feugiat.
             </p>

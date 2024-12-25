@@ -1,4 +1,3 @@
-import React from "react";
 import { FaLightbulb, FaBrain, FaCogs } from "react-icons/fa";
 
 const WhyChooseUs = () => {
@@ -31,8 +30,8 @@ const WhyChooseUs = () => {
           Cras dictum tellus dui, vitae sollicitudin ipsum tincidunt in. Sed
           tincidunt tristique enim sed sollicitudin.
         </p>
-        </div>
-        <div className="max-w-7xl px-4 mx-auto text-center">
+      </div>
+      <div className="max-w-7xl px-4 mx-auto text-center">
         <div className="grid gap-8 mt-10 md:grid-cols-2 lg:grid-cols-3">
           {reasons.map((reason, index) => (
             <div

@@ -1,24 +1,26 @@
-import React from "react";
-import Header from "../../assets/Components/Header.webp"
-import Footer from "../../assets/Components/Footer.webp"
-import Card from "../../assets/Components/Component1.webp"
+import Header from "../../assets/Components/Header.webp";
+import Footer from "../../assets/Components/Footer.webp";
+import Card from "../../assets/Components/Component1.webp";
 
 const ReadyToUseComponents = () => {
   const components = [
     {
       image: Header,
       title: "Header",
-      description: "Phasellus non dolor nibh. Nullam elementum. Explore pre-built components for seamless integration.",
+      description:
+        "Phasellus non dolor nibh. Nullam elementum. Explore pre-built components for seamless integration.",
     },
     {
       image: Footer,
       title: "Footer",
-      description: "Phasellus non dolor nibh. Nullam elementum. Easily customizable for your needs.",
+      description:
+        "Phasellus non dolor nibh. Nullam elementum. Easily customizable for your needs.",
     },
     {
       image: Card,
       title: "Cards",
-      description: "Phasellus non dolor nibh. Nullam elementum. Built for speed and efficiency.",
+      description:
+        "Phasellus non dolor nibh. Nullam elementum. Built for speed and efficiency.",
     },
   ];
 
@@ -33,8 +35,8 @@ const ReadyToUseComponents = () => {
           Cras dictum tellus dui, vitae sollicitudin ipsum tincidunt in. Sed
           tincidunt tristique enim sed sollicitudin.
         </p>
-          </div>
-          <div className="max-w-7xl px-4 mx-auto text-center">
+      </div>
+      <div className="max-w-7xl px-4 mx-auto text-center">
         <div className="grid gap-8 mt-10 md:grid-cols-2 lg:grid-cols-3">
           {components.map((component, index) => (
             <div

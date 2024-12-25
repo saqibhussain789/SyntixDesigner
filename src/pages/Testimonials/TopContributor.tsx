@@ -1,27 +1,29 @@
-import React from 'react';
 import FutureLearn from "../../assets/Testimonials/futurelearn.png";
 import SkillShare from "../../assets/Testimonials/SkillShare.png";
 import edX from "../../assets/Testimonials/exd.png";
 
 const TopContributors = () => {
   const contributors = [
-    { 
-        id: 1, 
-        name: "FutureLearn", 
-        logo: FutureLearn, 
-        content: "Offers a variety of online courses from top universities and organizations to enhance your skills." 
+    {
+      id: 1,
+      name: "FutureLearn",
+      logo: FutureLearn,
+      content:
+        "Offers a variety of online courses from top universities and organizations to enhance your skills.",
     },
-    { 
-        id: 2, 
-        name: "Skillshare", 
-        logo: SkillShare, 
-        content: "A platform focused on creative and professional courses to unlock your potential in various fields." 
+    {
+      id: 2,
+      name: "Skillshare",
+      logo: SkillShare,
+      content:
+        "A platform focused on creative and professional courses to unlock your potential in various fields.",
     },
-    { 
-        id: 3, 
-        name: "edX", 
-        logo: edX, 
-        content: "Provides access to high-quality education from world-renowned institutions and universities." 
+    {
+      id: 3,
+      name: "edX",
+      logo: edX,
+      content:
+        "Provides access to high-quality education from world-renowned institutions and universities.",
     },
   ];
 
@@ -45,7 +47,9 @@ const TopContributors = () => {
                 className="w-24 h-24 mx-auto"
               />
               <h4 className="text-lg font-bold mt-2">{contributor.name}</h4>
-              <p className="text-gray-500 text-sm mt-2">{contributor.content}</p>
+              <p className="text-gray-500 text-sm mt-2">
+                {contributor.content}
+              </p>
             </div>
           ))}
         </div>

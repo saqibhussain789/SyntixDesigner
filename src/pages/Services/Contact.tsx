@@ -1,19 +1,17 @@
-import React from "react";
-
 const CallToAction = () => {
   return (
     <div className="py-16 bg-white">
       <div className="max-w-7xl px-4 mx-auto">
-      <div className="max-w-7xl px-4 mx-auto text-left">
-        <h2 className="text-4xl font-bold text-yellow-500">CALL TO</h2>
-        <h3 className="text-5xl font-extrabold text-gray-800">ACTION</h3>
-        <p className="mt-4 text-gray-500 text-lg">
-          Phasellus non dolor nibh. Nullam elementum tellus pretium feugiat.
-          <br />
-          Cras dictum tellus dui, vitae sollicitudin ipsum tincidunt in. Sed
-          tincidunt tristique enim sed sollicitudin.
-        </p>
-      </div>
+        <div className="max-w-7xl px-4 mx-auto text-left">
+          <h2 className="text-4xl font-bold text-yellow-500">CALL TO</h2>
+          <h3 className="text-5xl font-extrabold text-gray-800">ACTION</h3>
+          <p className="mt-4 text-gray-500 text-lg">
+            Phasellus non dolor nibh. Nullam elementum tellus pretium feugiat.
+            <br />
+            Cras dictum tellus dui, vitae sollicitudin ipsum tincidunt in. Sed
+            tincidunt tristique enim sed sollicitudin.
+          </p>
+        </div>
 
         {/* Request a Quote Section */}
         <div className="grid gap-8 mt-10 lg:grid-cols-2 items-center">

@@ -1,37 +1,49 @@
-import React from "react";
-import { FaInfinity, FaVideo, FaCertificate, FaMobileAlt, FaChalkboardTeacher, FaHeadset } from "react-icons/fa";
+import {
+  FaInfinity,
+  FaVideo,
+  FaCertificate,
+  FaMobileAlt,
+  FaChalkboardTeacher,
+  FaHeadset,
+} from "react-icons/fa";
 
 const KeyFeatures = () => {
   const features = [
     {
       icon: <FaInfinity className="text-3xl text-yellow-500" />,
       title: "Unlimited Access",
-      description: "Morbi leo risus, porta ac consectetur, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor.",
+      description:
+        "Morbi leo risus, porta ac consectetur, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor.",
     },
     {
       icon: <FaVideo className="text-3xl text-yellow-500" />,
       title: "4500 Video Courses",
-      description: "Morbi leo risus, porta ac consectetur, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor.",
+      description:
+        "Morbi leo risus, porta ac consectetur, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor.",
     },
     {
       icon: <FaCertificate className="text-3xl text-yellow-500" />,
       title: "Valid Certification",
-      description: "Morbi leo risus, porta ac consectetur, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor.",
+      description:
+        "Morbi leo risus, porta ac consectetur, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor.",
     },
     {
       icon: <FaMobileAlt className="text-3xl text-yellow-500" />,
       title: "On-the-go Learning",
-      description: "Morbi leo risus, porta ac consectetur, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor.",
+      description:
+        "Morbi leo risus, porta ac consectetur, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor.",
     },
     {
       icon: <FaChalkboardTeacher className="text-3xl text-yellow-500" />,
       title: "Expert Teachers",
-      description: "Morbi leo risus, porta ac consectetur, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor.",
+      description:
+        "Morbi leo risus, porta ac consectetur, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor.",
     },
     {
       icon: <FaHeadset className="text-3xl text-yellow-500" />,
       title: "24x7 Super Support",
-      description: "Morbi leo risus, porta ac consectetur, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor.",
+      description:
+        "Morbi leo risus, porta ac consectetur, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor.",
     },
   ];
 
@@ -46,7 +58,6 @@ const KeyFeatures = () => {
           Cras dictum tellus dui, vitae sollicitudin ipsum tincidunt in. Sed
           tincidunt tristique enim sed sollicitudin.
         </p>
-        
 
         <div className="grid gap-8 mt-10 sm:grid-cols-2 lg:grid-cols-3">
           {features.map((feature, index) => (
