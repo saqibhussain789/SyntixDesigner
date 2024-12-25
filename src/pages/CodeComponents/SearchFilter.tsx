@@ -1,11 +1,18 @@
-import  { useState } from "react";
+import { useState } from "react";
+
+// Define the type for the data items
+interface Item {
+  id: number;
+  title: string;
+  category: string;
+}
 
 const SearchFilter = () => {
-  const [searchQuery, setSearchQuery] = useState("");
-  const [category, setCategory] = useState("");
-  const [results, setResults] = useState([]);
+  const [searchQuery, setSearchQuery] = useState<string>(""); // Type as string
+  const [category, setCategory] = useState<string>(""); // Type as string
+  const [results, setResults] = useState<Item[]>([]); // Type as an array of Item
 
-  const data = [
+  const data: Item[] = [
     { id: 1, title: "The Basics of Smart Photography", category: "Photography" },
     { id: 2, title: "Creative & Modern UI Design", category: "Design" },
     { id: 3, title: "The Art of Code", category: "Development" },
@@ -22,7 +29,7 @@ const SearchFilter = () => {
       return matchesQuery && matchesCategory;
     });
 
-    setResults(filtered);
+    setResults(filtered); // Now setResults accepts the filtered array correctly
   };
 
   return (
