@@ -1,4 +1,4 @@
-import { FaMedal } from "react-icons/fa";
+import {FaMedal} from "react-icons/fa"
 
 const CourseRewards = () => {
   const rewards = [
