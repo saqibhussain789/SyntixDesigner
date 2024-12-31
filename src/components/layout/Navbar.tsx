@@ -49,7 +49,7 @@ const Navbar: React.FC = () => {
           {/* Right Section: Buttons and Mobile Menu Toggle */}
           <div className="flex items-center lg:order-2">
             <Link
-              to="/pricing"
+              to="/login"
               className={`transition-all duration-300 font-medium rounded-lg text-sm px-4 py-2 lg:px-5 lg:py-2.5 mr-2 ${
                 isScrolled
                   ? "text-white bg-indigo-600 hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-300"

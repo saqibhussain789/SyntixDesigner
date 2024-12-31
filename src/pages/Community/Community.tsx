@@ -1,6 +1,18 @@
 import React from "react";
 import HeroBg from "../../assets/background/Community.jpeg";
 import Introduction from "./Introduction";
+import SearchFilter from "./Search";
+import Categories from "./Categories";
+import Discussions from "./Discussions";
+import Guidelines from "./Guidelines";
+import FAQSection from "./FAQ's";
+import PinnedTags from "./PinnedTopic";
+import LatestPosts from "./LatestPosts";
+import LeadershipBoard from "./Leaderboard";
+import TypeOfRewards from "./Badges";
+import CallToAction from "./Contact";
+import PollSurvey from "./Survey";
+import UserProfile from "./UserProfile";
 
 const Community: React.FC = () => {
   return (
@@ -34,6 +46,42 @@ const Community: React.FC = () => {
       </div>
       <div className="">
         <Introduction />
+      </div>
+      <div className="">
+        <SearchFilter />
+      </div>
+      <div className="">
+        <Categories />
+      </div>
+      <div className="">
+        <Discussions />
+      </div>
+      <div className="">
+        <PinnedTags />
+      </div>
+      <div className="">
+        <LatestPosts />
+      </div>
+      <div className="">
+        <UserProfile />
+      </div>
+      <div className="">
+        <LeadershipBoard />
+      </div>
+      <div className="">
+        <TypeOfRewards />
+      </div>
+      <div className="">
+        <PollSurvey />
+      </div>
+      <div className="">
+        <Guidelines />
+      </div>
+      <div className="">
+        <CallToAction />
+      </div>
+      <div className="">
+        <FAQSection />
       </div>
     </div>
   );

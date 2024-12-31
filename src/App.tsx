@@ -18,6 +18,7 @@ import Achievements from "./pages/Achievements/Achievements.tsx";
 import Rewards from "./pages/Rewards/Rewards.tsx";
 import Terms from "./pages/Terms&Conditions/Terms.tsx";
 import Privacy from "./pages/PrivacyPolicy/Privacy.tsx";
+import Login from "./pages/Login/login.tsx";
 
 
 
@@ -44,6 +45,7 @@ const App: React.FC = () => {
           <Route path="/rewards" element={<Rewards />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="/privacy-policy" element={<Privacy />} />
+          <Route path="/login" element={<Login />} />
 
           {/* Add more routes here */}
         </Routes>

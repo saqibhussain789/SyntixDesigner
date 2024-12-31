@@ -1,5 +1,18 @@
 import React from "react";
 import HeroBg from "../../assets/background/terms.jpeg";
+import Introduction from "./Introduction";
+import Acceptance from "./Acceptance";
+import PlatformUse from "./Platform";
+import Accounts from "./Accounts";
+import Content from "./ContentOwnership";
+import ChangeTerms from "./ChangeTerms";
+import CallToAction from "./Contact";
+import ContentOwnership from "./Content";
+import RewardsIncentives from "./Rewards";
+import SubscriptionPayment from "./Subscriptions";
+import Disclaimer from "./Disclaimers";
+import Termination from "./Termination";
+import Law from "./Law";
 
 const Terms: React.FC = () => {
   return (
@@ -31,9 +44,45 @@ const Terms: React.FC = () => {
           </div>
         </div>
       </div>
-      {/* <div className="">
+      <div className="">
         <Introduction />
-      </div> */}
+      </div>
+      <div className="">
+        <Acceptance />
+      </div>
+      <div className="">
+        <PlatformUse />
+      </div>
+      <div className="">
+        <Accounts />
+      </div>
+      <div className="">
+        <SubscriptionPayment />
+      </div>
+      <div className="">
+        <Content />
+      </div>
+      <div className="">
+        <ContentOwnership />
+      </div>
+      <div className="">
+        <RewardsIncentives />
+      </div>
+      <div className="">
+        <Disclaimer />
+      </div>
+      <div className="">
+        <Termination />
+      </div>
+      <div className="">
+        <ChangeTerms />
+      </div>
+      <div className="">
+        <Law />
+      </div>
+      <div className="">
+        <CallToAction />
+      </div>
     </div>
   );
 };

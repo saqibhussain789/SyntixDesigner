@@ -1,5 +1,19 @@
 import React from "react";
 import HeroBg from "../../assets/background/Support.jpeg";
+import Introduction from "./Introduction";
+import CallToAction from "./Contact";
+import FAQSection from "./FAQ's";
+import Issues from "./Issues";
+import ContactOption from "./ContactOptions";
+import FeedbackSuggestions from "./Feedback";
+import CommunityForum from "./CommunityForum";
+import HelpTopic from "./Help";
+import LiveChat from "./LiveChat";
+import ScheduleMeeting from "./Schedulemeeting";
+import SearchBar from "./Searchbar";
+import ServicesStatus from "./Services";
+import UserGuides from "./Userguide";
+import VideoTutorials from "./VideoTutorial";
 
 const Support: React.FC = () => {
   return (
@@ -26,14 +40,53 @@ const Support: React.FC = () => {
             <span className="text-lg font-semibold text-gray-300">Home</span>
             <span className="text-lg font-semibold text-yellow-400">•</span>
             <span className="text-lg font-semibold text-yellow-400">
-              Community
+            Support/Help
             </span>
           </div>
         </div>
       </div>
-      {/* <div className="">
+      <div className="">
         <Introduction />
-      </div> */}
+      </div>
+      <div className="">
+        <Issues />
+      </div>
+      <div className="">
+        <ContactOption />
+      </div>
+      <div className="">
+        <CommunityForum />
+      </div>
+      <div className="">
+        <HelpTopic />
+      </div>
+      <div className="">
+        <LiveChat />
+      </div>
+      <div className="">
+        <ScheduleMeeting />
+      </div>
+      <div className="">
+        <SearchBar />
+      </div>
+      <div className="">
+        <ServicesStatus />
+      </div>
+      <div className="">
+        <UserGuides />
+      </div>
+      <div className="">
+        <VideoTutorials />
+      </div>
+      <div className="">
+        <FeedbackSuggestions />
+      </div>
+      <div className="">
+        <FAQSection />
+      </div>
+      <div className="">
+        <CallToAction />
+      </div>
     </div>
   );
 };

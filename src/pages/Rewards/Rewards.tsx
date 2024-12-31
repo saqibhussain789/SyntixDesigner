@@ -1,5 +1,17 @@
 import React from "react";
 import HeroBg from "../../assets/background/rewards.jpeg";
+import HowItWorks from "./HowItWorks";
+import Introduction from "./Introduction";
+import EligibilityCriteria from "./Eligiability";
+import TopAchievers from "./TopAchievers";
+import RewardsTiers from "./RewardsTier";
+import RedeemRewards from "./RadeemRewards";
+import TrackProgress from "./TrackProgress";
+import CommunityLeadershipBoard from "./Leadership";
+import BenefitsParticipation from "./Benefits";
+import FAQSection from "./FAQ's";
+import CallToAction from "./Contact";
+import TypeOfRewards from "./RewardsSection";
 
 const Rewards: React.FC = () => {
   return (
@@ -31,9 +43,42 @@ const Rewards: React.FC = () => {
           </div>
         </div>
       </div>
-      {/* <div className="">
+      <div className="">
         <Introduction />
-      </div> */}
+      </div>
+      <div className="">
+        <HowItWorks />
+      </div>
+      <div className="">
+        <TypeOfRewards />
+      </div>
+      <div className="">
+        <EligibilityCriteria />
+      </div>
+      <div className="">
+        <TopAchievers />
+      </div>
+      <div className="">
+        <RewardsTiers />
+      </div>
+      <div className="">
+        <RedeemRewards />
+      </div>
+      <div className="">
+        <TrackProgress />
+      </div>
+      <div className="">
+        <CommunityLeadershipBoard />
+      </div>
+      <div className="">
+        <BenefitsParticipation />
+      </div>
+      <div className="">
+        <CallToAction />
+      </div>
+      <div className="">
+        <FAQSection />
+      </div>
     </div>
   );
 };

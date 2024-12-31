@@ -1,6 +1,18 @@
 import React from "react";
 import HeroBg from "../../assets/background/blog.jpeg";
 import Introduction from "./Introduction";
+import SearchFilter from "./SearchFilter";
+import FAQSection from "./FAQ's";
+import AllCategories from "./FeatureArtical";
+import LatestPosts from "./LatestPosts";
+import TopAuthors from "./TopAuthors";
+import PopularTags from "./PopularTags";
+import BlogPreviews from "./BlogPreviews";
+import InteractivePolls from "./InteractivePolls";
+import UserComments from "./Comments";
+import RelatedBlogs from "./RelatedBlogs";
+import WriteForUs from "./WriteForUs";
+import NewsletterSubscription from "./Newsletter";
 
 const Blog: React.FC = () => {
   return (
@@ -35,6 +47,43 @@ const Blog: React.FC = () => {
       <div className="">
         <Introduction />
       </div>
+      <div className="">
+        <SearchFilter />
+      </div>
+      <div className="">
+        <AllCategories />
+      </div>
+      <div className="">
+        <LatestPosts />
+      </div>
+      <div className="">
+        <TopAuthors />
+      </div>
+      <div className="">
+        <PopularTags />
+      </div>
+      <div className="">
+        <BlogPreviews />
+      </div>
+      <div className="">
+        <InteractivePolls />
+      </div>
+      <div className="">
+        <UserComments />
+      </div>
+      <div className="">
+        <RelatedBlogs />
+      </div>
+      <div className="">
+        <WriteForUs />
+      </div>
+      <div className="">
+        <NewsletterSubscription />
+      </div>
+      <div className="">
+        <FAQSection />
+      </div>
+      
     </div>
   );
 };
